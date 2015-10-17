@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('user', {});
+  this.route('inex', {});
 });
 
 export default Router;
